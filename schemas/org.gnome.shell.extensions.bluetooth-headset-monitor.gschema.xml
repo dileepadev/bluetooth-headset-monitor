@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.bluetooth-headset-monitor"
+        path="/org/gnome/shell/extensions/bluetooth-headset-monitor/">
+        <key name="show-notifications" type="b">
+            <default>true</default>
+            <summary>Show headset notifications</summary>
+            <description>Notify when compatible Bluetooth audio devices connect, disconnect, or
+                reach the low battery threshold.</description>
+        </key>
+        <key name="battery-warning-threshold" type="i">
+            <default>15</default>
+            <range min="1" max="100" />
+            <summary>Low battery threshold</summary>
+            <description>The battery percentage that triggers a low battery notification for a
+                connected headset.</description>
+        </key>
+        <key name="show-rssi" type="b">
+            <default>false</default>
+            <summary>Show signal strength</summary>
+            <description>Display RSSI values in the device menu when BlueZ provides them.</description>
+        </key>
+        <key name="show-device-address" type="b">
+            <default>false</default>
+            <summary>Show Bluetooth address</summary>
+            <description>Display the Bluetooth MAC address for each connected device in the menu.</description>
+        </key>
+    </schema>
+</schemalist>

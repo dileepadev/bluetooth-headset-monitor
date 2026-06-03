@@ -1,0 +1,9 @@
+{
+  "name": "Bluetooth Headset Monitor",
+  "description": "Show connected Bluetooth headset information in the GNOME top bar",
+  "uuid": "bluetooth-headset-monitor@dileepa.dev",
+  "settings-schema": "org.gnome.shell.extensions.bluetooth-headset-monitor",
+  "url": "https://github.com/dileepadev/bluetooth-headset-monitor",
+  "version": 1,
+  "shell-version": ["46", "47", "48"]
+}
